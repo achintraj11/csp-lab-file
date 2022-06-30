@@ -1,0 +1,150 @@
+31. def my_function(fname, lname):
+  print(fname + " " + lname)
+
+my_function("Emil", "Refsnes")
+
+
+32.
+
+# This function uses global variable s
+def f():
+    print("Inside Function", s)
+ 
+# Global scope
+s = "I love Geeksforgeeks"
+f()
+print("Outside Function", s)
+
+
+33.
+# Python program to find the sum of natural using recursive function
+
+def recur_sum(n):
+   if n <= 1:
+       return n
+
+   else:
+       return n + recur_sum(n-1)
+
+# change this value for a different result
+num = 16
+
+if num < 0:
+   print("Enter a positive number")
+else:
+   print("The sum is",recur_sum(num))
+
+34.
+def recur_factorial(n):
+   if n == 1:
+       return n
+   else:
+       return n*recur_factorial(n-1)
+
+num = 7
+
+# check if the number is negative
+if num < 0:
+   print("Sorry, factorial does not exist for negative numbers")
+elif num == 0:
+   print("The factorial of 0 is 1")
+else:
+   print("The factorial of", num, "is", recur_factorial(num))
+
+
+35.
+def recur_fibo(n):  
+   if n <= 1:  
+       return n  
+   else:  
+       return(recur_fibo(n-1) + recur_fibo(n-2))  
+# take input from the user  
+nterms = int(input("How many terms? "))  
+# check if the number of terms is valid  
+if nterms <= 0:  
+   print("Plese enter a positive integer")  
+else:  
+   print("Fibonacci sequence:")  
+   for i in range(nterms):  
+       print(recur_fibo(i))  
+
+36.
+
+# Python3 program to Find total number 
+# of triplets in a temp_list with given k
+  
+def findTriplets(lst, k):
+    triplet_count = 0
+    final_temp_list =[]
+      
+    for i in range(0, len(lst)-1): 
+          
+        s = set() 
+        temp_list = []
+  
+        # Adding first element
+        temp_list.append(lst[i])
+  
+        curr_k = k - lst[i] 
+          
+        for j in range(i + 1, len(lst)): 
+              
+            if (curr_k - lst[j]) in s: 
+                triplet_count += 1
+                  
+                # Adding second element
+                temp_list.append(lst[j])
+  
+                # Adding third element
+                temp_list.append(curr_k - lst[j])
+                  
+                # Appending tuple to the final list
+                final_temp_list.append(tuple(temp_list))
+                temp_list.pop(2)
+                temp_list.pop(1)
+            s.add(lst[j])
+              
+    return final_temp_list
+      
+# Driver Code
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+k = 10
+print(findTriplets(lst, k))
+
+37.
+from matplotlib import pyplot as plt
+  
+ #Plotting to our canvas
+  
+ plt.plot([1,2,3],[4,5,1])
+  
+ #Showing what we plotted
+  
+ plt.show()
+
+38.Save this code in the file mymodule.py
+
+person1 = {
+  "name": "Chirag Goyal",
+  "age": 19,
+  "country": "India"
+  "education”: “IIT Jodhpur"  
+}
+
+import mymodule
+a = mymodule.person1["age"]
+b = mymodule.person1["education"]
+c = mymodule.person1["country"]
+print(a)
+
+39.
+import math
+
+print(math.sin(math.pi/3)) #pi/3 radians is converted to 60 degrees
+print(math.tan(math.pi/3))
+print(math.cos(math.pi/6))
+
+40.
+
+
+
