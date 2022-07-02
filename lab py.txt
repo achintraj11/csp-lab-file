@@ -11,7 +11,7 @@ def f():
     print("Inside Function", s)
  
 # Global scope
-s = "I love Geeksforgeeks"
+s = "This is Achint"
 f()
 print("Outside Function", s)
 
@@ -145,6 +145,24 @@ print(math.tan(math.pi/3))
 print(math.cos(math.pi/6))
 
 40.
+
+
+41. 
+
+luck_num = ["89", "78", "45", "56", "73", "39"]
+friend = luck_num.copy()
+print(friend)
+
+42.
+
+my_list = [1, 2, 3, 4, 5]
+print(my_list[:])
+print(my_list[2:])
+print(my_list[:2])
+print(my_list[2:4])
+print(my_list[::2])
+print(my_list[::-2])
+print(my_list[1:4:2])
 
 
 Q46.
