@@ -125,10 +125,10 @@ from matplotlib import pyplot as plt
 38.Save this code in the file mymodule.py
 
 person1 = {
-  "name": "Chirag Goyal",
-  "age": 19,
+  "name": "Achint Raj",
+  "age": 21,
   "country": "India"
-  "education”: “IIT Jodhpur"  
+  "education”: “SMVDU"  
 }
 
 import mymodule
@@ -149,9 +149,9 @@ print(math.cos(math.pi/6))
 
 41. 
 
-luck_num = ["89", "78", "45", "56", "73", "39"]
-friend = luck_num.copy()
-print(friend)
+ran_num = ["89", "78", "45", "56", "73", "39"]
+lk = ran_num.copy()
+print(lk)
 
 42.
 
