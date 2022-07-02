@@ -10,4 +10,4 @@ Output for some selected python programs
 ![42](https://user-images.githubusercontent.com/82290379/177019233-6d02f8fd-a041-44b0-bf12-e6497fb74fa3.jpg)
 
 
-                  ![Screenshot 2022-07-03 035259](https://user-images.githubusercontent.com/82290379/177019230-e8e34351-fb7d-4372-8bc6-e9cb9c0c78cc.jpg)
+                  ![Screenshot 2022-07-03 035259](https://user-images.githubusercontent.com/82290379/177019272-587e7aa5-7de9-4a4d-b5b6-3c8b5a868802.jpg)
