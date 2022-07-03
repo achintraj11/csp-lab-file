@@ -601,4 +601,5 @@ c1.grid(row = 10, column = 0)
 B1 = tkinter.Button(text = "Submit")
 B1.grid(row = 11, column = 1)
 
+#kali billi rasta kaat gayi
 
